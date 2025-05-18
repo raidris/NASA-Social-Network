@@ -1,0 +1,29 @@
+<%- include('includes/head.ejs') %>
+</head>
+
+<body>
+
+<div id="loginDiv" class="container text-center bg-light rounded-3">
+
+    <h3>Please fill the next fields</h3><br>
+    <p class="text-primary text-center"><%= message %></p>
+
+    <div><br>
+        <form action='/feed/' method="POST" id="loginForm">
+
+                <label for="email">Enter your email address</label><br>
+                <input type="text" class="w-25" id="email" name="email" placeholder="Email address"
+                       pattern="[[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$]{0,32}" required><br><br>
+
+                <label for="password">Enter your password</label><br>
+                <input type="password" class="w-25" id="password" name="password"
+                       placeholder="Password" pattern="[A-Za-z1-9]{1,24}" required><br><br>
+
+                <input id="loginBtn" type="submit" class="btn btn-primary"><br>
+
+        </form><br>
+    </div><br>
+    <p>Need an account? <a href="/register/add-details">Register here</a></p>
+
+</div>
+<%- include('includes/end.ejs') %>

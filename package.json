@@ -1,0 +1,27 @@
+{
+  "name": "ex6-express-neviiim-ex6-raedbarhoum-rashidabuyunis",
+  "version": "1.0.0",
+  "description": "NodeJS MVC example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "connect-session-sequelize": "^7.1.5",
+    "cookie-parser": "^1.4.6",
+    "cookies": "^0.8.0",
+    "ejs": "^3.0.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http-errors": "^2.0.0",
+    "nodemon": "^2.0.20",
+    "process": "^0.11.10",
+    "sequelize": "^6.28.0",
+    "sequelize-cli": "^6.6.0",
+    "sqlite3": "^5.1.4"
+  }
+}
